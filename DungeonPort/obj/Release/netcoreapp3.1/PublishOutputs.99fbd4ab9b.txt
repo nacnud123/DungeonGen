@@ -1,0 +1,5 @@
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\bin\Release\netcoreapp3.1\publish\DungeonPort.exe
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\bin\Release\netcoreapp3.1\publish\DungeonPort.dll
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\bin\Release\netcoreapp3.1\publish\DungeonPort.deps.json
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\bin\Release\netcoreapp3.1\publish\DungeonPort.runtimeconfig.json
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\bin\Release\netcoreapp3.1\publish\DungeonPort.pdb

@@ -1,0 +1,17 @@
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\bin\Release\netcoreapp3.1\DungeonPort.exe
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\bin\Release\netcoreapp3.1\DungeonPort.deps.json
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\bin\Release\netcoreapp3.1\DungeonPort.runtimeconfig.json
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\bin\Release\netcoreapp3.1\DungeonPort.runtimeconfig.dev.json
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\bin\Release\netcoreapp3.1\DungeonPort.dll
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\bin\Release\netcoreapp3.1\DungeonPort.pdb
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\obj\Release\netcoreapp3.1\DungeonPort.csprojAssemblyReference.cache
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\obj\Release\netcoreapp3.1\DungeonPort.AssemblyInfoInputs.cache
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\obj\Release\netcoreapp3.1\DungeonPort.AssemblyInfo.cs
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\obj\Release\netcoreapp3.1\DungeonPort.csproj.CoreCompileInputs.cache
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\obj\Release\netcoreapp3.1\DungeonPort.dll
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\obj\Release\netcoreapp3.1\DungeonPort.pdb
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\obj\Release\netcoreapp3.1\DungeonPort.genruntimeconfig.cache
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\bin\Release\netcoreapp3.1\DungeonPort.dll.manifest
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\bin\Release\netcoreapp3.1\DungeonPort.application
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\obj\Release\netcoreapp3.1\DungeonPort.dll.manifest
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\obj\Release\netcoreapp3.1\DungeonPort.application

@@ -1,0 +1,5 @@
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\bin\publish\DungeonPort.exe
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\bin\publish\DungeonPort.dll
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\bin\publish\DungeonPort.deps.json
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\bin\publish\DungeonPort.runtimeconfig.json
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\bin\publish\DungeonPort.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\978du\\Documents\\GitHub\\PWD\\College\\C# Projects\\DungeonPort\\DungeonPort.csproj": {}
+    "D:\\Users\\978du\\Documents\\GitHub\\DungeonGen\\DungeonPort\\DungeonPort.csproj": {}
   },
   "projects": {
-    "D:\\Users\\978du\\Documents\\GitHub\\PWD\\College\\C# Projects\\DungeonPort\\DungeonPort.csproj": {
+    "D:\\Users\\978du\\Documents\\GitHub\\DungeonGen\\DungeonPort\\DungeonPort.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\978du\\Documents\\GitHub\\PWD\\College\\C# Projects\\DungeonPort\\DungeonPort.csproj",
+        "projectUniqueName": "D:\\Users\\978du\\Documents\\GitHub\\DungeonGen\\DungeonPort\\DungeonPort.csproj",
         "projectName": "DungeonPort",
-        "projectPath": "D:\\Users\\978du\\Documents\\GitHub\\PWD\\College\\C# Projects\\DungeonPort\\DungeonPort.csproj",
+        "projectPath": "D:\\Users\\978du\\Documents\\GitHub\\DungeonGen\\DungeonPort\\DungeonPort.csproj",
         "packagesPath": "C:\\Users\\978du\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\978du\\Documents\\GitHub\\PWD\\College\\C# Projects\\DungeonPort\\obj\\",
+        "outputPath": "D:\\Users\\978du\\Documents\\GitHub\\DungeonGen\\DungeonPort\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\978du\\AppData\\Roaming\\NuGet\\NuGet.Config",
