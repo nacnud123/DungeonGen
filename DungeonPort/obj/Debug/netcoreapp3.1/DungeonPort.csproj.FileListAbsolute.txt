@@ -37,3 +37,17 @@ D:\Users\978du\Documents\GitHub\PWD\College\C# Projects\DungeonPort\obj\Debug\ne
 D:\Users\978du\Documents\GitHub\PWD\College\C# Projects\DungeonPort\obj\Debug\netcoreapp3.1\DungeonPort.dll
 D:\Users\978du\Documents\GitHub\PWD\College\C# Projects\DungeonPort\obj\Debug\netcoreapp3.1\DungeonPort.pdb
 D:\Users\978du\Documents\GitHub\PWD\College\C# Projects\DungeonPort\obj\Debug\netcoreapp3.1\DungeonPort.genruntimeconfig.cache
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\bin\Debug\netcoreapp3.1\DungeonPort.exe
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\bin\Debug\netcoreapp3.1\DungeonPort.deps.json
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\bin\Debug\netcoreapp3.1\DungeonPort.runtimeconfig.json
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\bin\Debug\netcoreapp3.1\DungeonPort.runtimeconfig.dev.json
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\bin\Debug\netcoreapp3.1\DungeonPort.dll
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\bin\Debug\netcoreapp3.1\DungeonPort.pdb
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\obj\Debug\netcoreapp3.1\DungeonPort.csproj.AssemblyReference.cache
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\obj\Debug\netcoreapp3.1\DungeonPort.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\obj\Debug\netcoreapp3.1\DungeonPort.AssemblyInfoInputs.cache
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\obj\Debug\netcoreapp3.1\DungeonPort.AssemblyInfo.cs
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\obj\Debug\netcoreapp3.1\DungeonPort.csproj.CoreCompileInputs.cache
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\obj\Debug\netcoreapp3.1\DungeonPort.dll
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\obj\Debug\netcoreapp3.1\DungeonPort.pdb
+D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\obj\Debug\netcoreapp3.1\DungeonPort.genruntimeconfig.cache

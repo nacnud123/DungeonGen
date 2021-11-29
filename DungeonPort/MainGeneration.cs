@@ -14,7 +14,9 @@ namespace DungeonPort
         OpenDoor = '-',
         UpStairs = '<',
         DownStairs = '>',
-        player = 'p'
+        player = 'p',
+        chest = 'c',
+        enemy = '8'
     }
     public enum Direction // Used to hold the directions it can generate.
     {
@@ -73,13 +75,13 @@ namespace DungeonPort
              {
                  Console.WriteLine("Unable to place down stiars");
              }
-
-            for(int i = 0; i < _tiles.Count; i++) // Used to make so the unused tile is desplates as a '.'
+            
+            for (int i = 0; i < _tiles.Count; i++) // Used to make so the unused tile is desplates as a '.'
             {
                 if (_tiles[i] == (char)Tile.Unused)
-                    _tiles[i] = '.';
-                else if (_tiles[i] == (char)Tile.Floor || _tiles[i] == (char)Tile.Corridor)
                     _tiles[i] = ' ';
+                else if (_tiles[i] == (char)Tile.Floor || _tiles[i] == (char)Tile.Corridor)
+                    _tiles[i] = '.';
             }
         }
 
@@ -188,22 +190,27 @@ namespace DungeonPort
             {
                 room.x = x - room.width / 2;
                 room.y = y - room.height;
+                //placeObject(Tile.chest);
             }
             else if (dir == Direction.South)
             {
                 room.x = x - room.width / 2;
                 room.y = y + 1;
+                //placeObject(Tile.chest);
             }
             else if(dir == Direction.West)
             {
                 room.x = x - room.width;
                 room.y = y - room.height / 2;
+                //placeObject(Tile.chest);
             }
             else if(dir == Direction.East)
             {
                 room.x = x + 1;
                 room.y = y - room.height / 2;
+                //placeObject(Tile.chest);
             }
+
 
             if (placeRect(room, Tile.Floor))
             {
@@ -241,6 +248,12 @@ namespace DungeonPort
 
                     _exits.Add(temp);
                 }
+                //----------------------
+
+                placeObject(Tile.enemy);
+                
+                //----------------------
+
                 return true;
 
             }
@@ -359,20 +372,21 @@ namespace DungeonPort
 
             return true;
         }
-
         private bool placeObject(Tile tile) // Used to place certian objects like doors.
         {
             if (_rooms.Count == 0)
                 return false;
 
+            //rand = new Random(new System.DateTime().Millisecond);
+
             int r = rand.Next(0, _rooms.Count);
             int x = rand.Next(_rooms[r].x + 1, _rooms[r].x + _rooms[r].width - 2);
             int y = rand.Next(_rooms[r].y + 1, _rooms[r].y + _rooms[r].height - 2);
 
-            if(getTile(x,y) == (char)Tile.Floor)
+            if (getTile(x, y) == (char)Tile.Floor)
             {
                 setTile(x, y, tile);
-
+                
                 _rooms.RemoveAt(0 + r);
 
                 return true;
