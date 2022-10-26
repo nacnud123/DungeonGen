@@ -5,7 +5,7 @@ using System.Collections.Generic;
 namespace DungeonPort
 {
     public enum Tile // Used to hold the tiles of the dungeon.
-    { 
+    {
         Unused = ' ',
         Floor = '.',
         Corridor = ',',
@@ -14,9 +14,7 @@ namespace DungeonPort
         OpenDoor = '-',
         UpStairs = '<',
         DownStairs = '>',
-        player = 'p',
-        chest = 'c',
-        enemy = '8'
+        player = 'p'
     }
     public enum Direction // Used to hold the directions it can generate.
     {
@@ -48,17 +46,18 @@ namespace DungeonPort
             _rooms = new List<Rect>();
             _exits = new List<Rect>();
         }
-        
+
         public void generate(int maxFeatures) // Main Genreation code.
         {
             //Try and place the first room in the center
-            if(!makeRoom(_width / 2, _height /2, (Direction)rand.Next(0, 4), true)){
+            if (!makeRoom(_width / 2, _height / 2, (Direction)rand.Next(0, 4), true))
+            {
                 Console.WriteLine("Unable to place the first room");
                 return;
             }
 
             //Already placed 1 feature (the first room)
-            for(int i = 1; i < maxFeatures; ++i)
+            for (int i = 1; i < maxFeatures; ++i)
             {
                 if (!createFeature())
                 {
@@ -67,29 +66,29 @@ namespace DungeonPort
             }
 
             if (!placeObject(Tile.UpStairs)) // Places the up stairs
-             {
-                 Console.WriteLine("Unable to place up stairs");
-             }
+            {
+                Console.WriteLine("Unable to place up stairs");
+            }
 
-             if (!placeObject(Tile.DownStairs)) // Places the down stiars
-             {
-                 Console.WriteLine("Unable to place down stiars");
-             }
-            
+            if (!placeObject(Tile.DownStairs)) // Places the down stiars
+            {
+                Console.WriteLine("Unable to place down stiars");
+            }
+
             for (int i = 0; i < _tiles.Count; i++) // Used to make so the unused tile is desplates as a '.'
             {
                 if (_tiles[i] == (char)Tile.Unused)
-                    _tiles[i] = ' ';
-                else if (_tiles[i] == (char)Tile.Floor || _tiles[i] == (char)Tile.Corridor)
                     _tiles[i] = '.';
+                else if (_tiles[i] == (char)Tile.Floor || _tiles[i] == (char)Tile.Corridor)
+                    _tiles[i] = ' ';
             }
         }
 
         public void print() // Used to print the whole dungeon
         {
-            for(int y= 0; y < _height; ++y)
+            for (int y = 0; y < _height; ++y)
             {
-                for(int x = 0; x < _width; ++x)
+                for (int x = 0; x < _width; ++x)
                     Console.Write(getTile(x, y));
 
                 Console.WriteLine();
@@ -113,7 +112,7 @@ namespace DungeonPort
         private bool createFeature() // Used to create featuers
         {
             rand = new Random(new System.DateTime().Millisecond); // Randomise the seed
-            for(int i = 0; i < 1000; ++i)
+            for (int i = 0; i < 1000; ++i)
             {
                 if (_exits.Count == 0)
                     break;
@@ -122,7 +121,7 @@ namespace DungeonPort
                 int x = rand.Next(_exits[r].x, _exits[r].x + _exits[r].width - 1);
                 int y = rand.Next(_exits[r].y, _exits[r].y + _exits[r].height - 1);
 
-                for(int j = 0; j < (int)Direction.DirectionCount; ++j)
+                for (int j = 0; j < (int)Direction.DirectionCount; ++j)
                 {
                     if (createFeature(x, y, (Direction)j))
                     {
@@ -153,9 +152,9 @@ namespace DungeonPort
             if (getTile(x + dx, y + dy) != (char)Tile.Floor && getTile(x + dx, y + dy) != (char)Tile.Corridor)
                 return false;
 
-            if(rand.Next(0, 100) < roomChance)
+            if (rand.Next(0, 100) < roomChance)
             {
-                if(makeRoom(x, y, dir))
+                if (makeRoom(x, y, dir))
                 {
                     setTile(x, y, Tile.ClosedDoor);
                     return true;
@@ -176,7 +175,7 @@ namespace DungeonPort
             return false;
         }
 
-        private bool makeRoom(int x , int y, Direction dir, bool firstRoom = false) // Used to make rooms
+        private bool makeRoom(int x, int y, Direction dir, bool firstRoom = false) // Used to make rooms
         {
             const int minRoomSize = 3;
             const int maxRoomSize = 6;
@@ -186,31 +185,26 @@ namespace DungeonPort
             room.width = rand.Next(minRoomSize, maxRoomSize);
             room.height = rand.Next(minRoomSize, maxRoomSize);
 
-            if(dir == Direction.North)
+            if (dir == Direction.North)
             {
                 room.x = x - room.width / 2;
                 room.y = y - room.height;
-                //placeObject(Tile.chest);
             }
             else if (dir == Direction.South)
             {
                 room.x = x - room.width / 2;
                 room.y = y + 1;
-                //placeObject(Tile.chest);
             }
-            else if(dir == Direction.West)
+            else if (dir == Direction.West)
             {
                 room.x = x - room.width;
                 room.y = y - room.height / 2;
-                //placeObject(Tile.chest);
             }
-            else if(dir == Direction.East)
+            else if (dir == Direction.East)
             {
                 room.x = x + 1;
                 room.y = y - room.height / 2;
-                //placeObject(Tile.chest);
             }
-
 
             if (placeRect(room, Tile.Floor))
             {
@@ -222,15 +216,15 @@ namespace DungeonPort
                     temp.x = room.x; /**/ temp.y = room.y - 1; /**/ temp.width = room.width; /**/ temp.height = 1;
                     if (firstRoom)
                     {
-                        setTile(room.x+2, room.y+1, Tile.player);
+                        setTile(room.x + 2, room.y + 1, Tile.player);
                     }
                     _exits.Add(temp);
                 }
-                if(dir != Direction.North || firstRoom)
+                if (dir != Direction.North || firstRoom)
                 {
                     temp = new Rect();
                     temp.x = room.x; /**/ temp.y = room.y + room.height; /**/ temp.width = room.width; /**/ temp.height = 1;
-                    
+
                     _exits.Add(temp);
                 }
                 if (dir != Direction.East || firstRoom)
@@ -244,16 +238,10 @@ namespace DungeonPort
                 {
                     temp = new Rect();
                     temp.x = room.x + room.width; /**/ temp.y = room.y; /**/ temp.width = 1; /**/ temp.height = room.height;
-                    
+
 
                     _exits.Add(temp);
                 }
-                //----------------------
-
-                placeObject(Tile.enemy);
-                
-                //----------------------
-
                 return true;
 
             }
@@ -302,14 +290,14 @@ namespace DungeonPort
                     corridor.y = y - corridor.height;
                 else if (dir == Direction.South)
                     corridor.y = y + 1;
-                else if(dir == Direction.West)
+                else if (dir == Direction.West)
                 {
                     corridor.x = x - 1;
 
                     if (RandomBool())
                         corridor.y = y - corridor.height + 1;
                 }
-                else if(dir == Direction.East)
+                else if (dir == Direction.East)
                 {
                     corridor.x = x + 1;
 
@@ -317,8 +305,8 @@ namespace DungeonPort
                         corridor.y = y - corridor.height + 1;
                 }
             }
-            
-            if(placeRect(corridor, Tile.Corridor))
+
+            if (placeRect(corridor, Tile.Corridor))
             {
                 if (dir != Direction.South && corridor.width != 1)
                 {
@@ -361,8 +349,8 @@ namespace DungeonPort
                         return false;
                 }
 
-            for(int y = rect.y - 1; y < rect.y + rect.height + 1; ++y)
-                for(int x = rect.x - 1; x < rect.x + rect.width + 1; ++x)
+            for (int y = rect.y - 1; y < rect.y + rect.height + 1; ++y)
+                for (int x = rect.x - 1; x < rect.x + rect.width + 1; ++x)
                 {
                     if (x == rect.x - 1 || y == rect.y - 1 || x == rect.x + rect.width || y == rect.y + rect.height)
                         setTile(x, y, Tile.Wall);
@@ -372,12 +360,11 @@ namespace DungeonPort
 
             return true;
         }
+
         private bool placeObject(Tile tile) // Used to place certian objects like doors.
         {
             if (_rooms.Count == 0)
                 return false;
-
-            //rand = new Random(new System.DateTime().Millisecond);
 
             int r = rand.Next(0, _rooms.Count);
             int x = rand.Next(_rooms[r].x + 1, _rooms[r].x + _rooms[r].width - 2);
@@ -386,7 +373,7 @@ namespace DungeonPort
             if (getTile(x, y) == (char)Tile.Floor)
             {
                 setTile(x, y, tile);
-                
+
                 _rooms.RemoveAt(0 + r);
 
                 return true;
