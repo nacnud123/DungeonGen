@@ -51,3 +51,17 @@ D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\obj\Debug\netcoreapp3.1\D
 D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\obj\Debug\netcoreapp3.1\DungeonPort.dll
 D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\obj\Debug\netcoreapp3.1\DungeonPort.pdb
 D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\obj\Debug\netcoreapp3.1\DungeonPort.genruntimeconfig.cache
+C:\Users\Duncan\Documents\GitHub\DungeonGen\DungeonPort\bin\Debug\netcoreapp3.1\DungeonPort.exe
+C:\Users\Duncan\Documents\GitHub\DungeonGen\DungeonPort\bin\Debug\netcoreapp3.1\DungeonPort.deps.json
+C:\Users\Duncan\Documents\GitHub\DungeonGen\DungeonPort\bin\Debug\netcoreapp3.1\DungeonPort.runtimeconfig.json
+C:\Users\Duncan\Documents\GitHub\DungeonGen\DungeonPort\bin\Debug\netcoreapp3.1\DungeonPort.runtimeconfig.dev.json
+C:\Users\Duncan\Documents\GitHub\DungeonGen\DungeonPort\bin\Debug\netcoreapp3.1\DungeonPort.dll
+C:\Users\Duncan\Documents\GitHub\DungeonGen\DungeonPort\bin\Debug\netcoreapp3.1\DungeonPort.pdb
+C:\Users\Duncan\Documents\GitHub\DungeonGen\DungeonPort\obj\Debug\netcoreapp3.1\DungeonPort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Duncan\Documents\GitHub\DungeonGen\DungeonPort\obj\Debug\netcoreapp3.1\DungeonPort.AssemblyInfoInputs.cache
+C:\Users\Duncan\Documents\GitHub\DungeonGen\DungeonPort\obj\Debug\netcoreapp3.1\DungeonPort.AssemblyInfo.cs
+C:\Users\Duncan\Documents\GitHub\DungeonGen\DungeonPort\obj\Debug\netcoreapp3.1\DungeonPort.csproj.CoreCompileInputs.cache
+C:\Users\Duncan\Documents\GitHub\DungeonGen\DungeonPort\obj\Debug\netcoreapp3.1\DungeonPort.sourcelink.json
+C:\Users\Duncan\Documents\GitHub\DungeonGen\DungeonPort\obj\Debug\netcoreapp3.1\DungeonPort.dll
+C:\Users\Duncan\Documents\GitHub\DungeonGen\DungeonPort\obj\Debug\netcoreapp3.1\DungeonPort.pdb
+C:\Users\Duncan\Documents\GitHub\DungeonGen\DungeonPort\obj\Debug\netcoreapp3.1\DungeonPort.genruntimeconfig.cache

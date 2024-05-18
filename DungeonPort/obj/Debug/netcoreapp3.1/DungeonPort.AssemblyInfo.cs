@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DungeonPort")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26da3bd88cfa8a23e0aacdb6ae00ce4eb0f3ec72")]
 [assembly: System.Reflection.AssemblyProductAttribute("DungeonPort")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DungeonPort")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "WxyFKGeLdRWNrzc4nt9DBy0cIUutoAzC1mV/2m4ISzAFuzU24CpkvOs0ebTcl/PzCbW3aInTFXZDsoAaonAWxg==",
+  "dgSpecHash": "kJXfmm3uf3lorJZknlY4x40qNVtUz0T/dXJbIrHhg+9aN74ZuT7GEP98/ncCksoENv8Hst5cT0R2B1TKV0YISQ==",
   "success": true,
-  "projectFilePath": "D:\\Users\\978du\\Documents\\GitHub\\DungeonGen\\DungeonPort\\DungeonPort.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Duncan\\Documents\\GitHub\\DungeonGen\\DungeonPort\\DungeonPort.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Duncan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Duncan\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Duncan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Duncan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
   "logs": []
 }

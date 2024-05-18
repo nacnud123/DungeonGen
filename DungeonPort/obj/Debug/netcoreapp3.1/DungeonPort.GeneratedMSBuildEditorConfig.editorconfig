@@ -1,3 +1,5 @@
 is_global = true
 build_property.RootNamespace = DungeonPort
-build_property.ProjectDir = D:\Users\978du\Documents\GitHub\DungeonGen\DungeonPort\
+build_property.ProjectDir = C:\Users\Duncan\Documents\GitHub\DungeonGen\DungeonPort\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

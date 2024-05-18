@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\978du\\.nuget\\packages\\": {},
+    "C:\\Users\\Duncan\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\978du\\Documents\\GitHub\\DungeonGen\\DungeonPort\\DungeonPort.csproj",
+      "projectUniqueName": "C:\\Users\\Duncan\\Documents\\GitHub\\DungeonGen\\DungeonPort\\DungeonPort.csproj",
       "projectName": "DungeonPort",
-      "projectPath": "D:\\Users\\978du\\Documents\\GitHub\\DungeonGen\\DungeonPort\\DungeonPort.csproj",
-      "packagesPath": "C:\\Users\\978du\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\978du\\Documents\\GitHub\\DungeonGen\\DungeonPort\\obj\\",
+      "projectPath": "C:\\Users\\Duncan\\Documents\\GitHub\\DungeonGen\\DungeonPort\\DungeonPort.csproj",
+      "packagesPath": "C:\\Users\\Duncan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Duncan\\Documents\\GitHub\\DungeonGen\\DungeonPort\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\978du\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Duncan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -33,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -61,12 +62,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.32, 3.1.32]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
